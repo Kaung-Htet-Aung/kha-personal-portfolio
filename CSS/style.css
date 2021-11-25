@@ -1,0 +1,114 @@
+html{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#575151;
+    margin: 0px;
+    padding: 0px;
+    
+}
+#header-section{
+    font-weight: bold;
+ 
+}
+.navbar{
+    background-color:#3f3b3b;
+    border-bottom: 2px solid gray;
+}
+ul{
+    list-style: none;
+}
+.info li{
+    display: inline-block;
+}
+.info a{
+    color: white;
+}
+#second-section i{
+    border: 2px solid red;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+}
+#third-section{
+    background-color:#4a4444
+
+}
+#third-section a{
+     text-decoration: none;
+ }
+ #project{
+     background-color:#4a4444 ;
+ }
+#line{
+    width:50px;
+    background-color: darkred;
+    height:2px;
+    margin: auto;
+}
+#item{
+    align-items: center;
+    text-align: center;
+    background-color: white;
+
+}
+@media (min-width: 576px) { 
+    #sec-section{
+        margin-top:100px;
+    }
+ }
+
+ @media (max-width:766px) { 
+    #third-section img{
+        width: 100%;
+
+    }
+ }
+
+
+ @media (max-width: 576px) { 
+    #sec-section{
+        margin-top:30px;
+    }
+    #sec-section {
+        text-align: center;
+    }
+    .input-group{
+        margin-top: 5px;
+      
+    }
+    .row{
+        margin-top:-20px;
+    }
+    #email{
+        margin-bottom:50px;
+    }
+    #progress{
+        margin-top: 20px;
+    }
+   
+    #last{     
+        margin-top: 0px;
+    }
+    #foot{
+        height: 650px;
+        background-color:  #3f3b3b;
+    }
+ }
+footer{
+    background-color: #3f3b3b;
+    height:500px;
+}
+textarea{
+    resize: none;
+}
+ #last{
+     margin-top:40px;
+     width:100%;
+     background-color: black;
+ }
